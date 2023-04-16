@@ -67,3 +67,23 @@ TIPOS AUXILIARES:
 Genero, enumerado. Puede tomar los valores MALE, FEMALE.
 Pelaje, enumerado. Puede tomar los valores SHORT, MEDIUM, WIREHAIRED.
 Tamaño, enumerado. Puede tomar los valores, SMALL, MEDIUM, LARGE.
+
+FACTORIA
+El proyecto tiene una clase denominada FactoriaPerros la cual se encarga de parsear los datos del csv y leerlos(parsearPerros y leerPerros).
+
+TIPO CONTENEDOR
+
+Constructores:
+-C1: Perros()
+-C2: Perros(List<Perro>p)
+-C3: Perros(Stream<Perro>perros)
+
+Otras operaciones:
+- addPerro(Perro perro)
+- addPerros(List<Perro> perros)
+-  removePerro(Perro perro)
+- countPerros()
+- existe(Integer id)
+- getMediaPesoSegunTamaño(Tamaño size)
+- filtraPorPerrosVacunados()
+- getListaPorPeso()
